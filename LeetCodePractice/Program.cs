@@ -4,8 +4,16 @@
 
 //Console.WriteLine(total);
 
-var correctBrackets = ValidParentheses.IsValid("([{(())]])");
+//var correctBrackets = ValidParentheses.IsValid("([{(())]])");
 
-Console.WriteLine(correctBrackets);
+//string[] test = new string[] { "flower", "flow", "flight" };
+
+//var prefix = LongestCommonPrefix.LongCommonPrefix(test);
+
+int[] testOcc = new int[] { 1, 2 };
+
+var occTest = UniqueNumOfOccurrences.UniqueOccurrences(testOcc);
+
+Console.WriteLine(occTest);
 
 Console.ReadLine();
